@@ -6,7 +6,10 @@ const renderer = new marked.Renderer();
 
 function App(){
 
-    const [text, setText] = React.useState("");
+    let init = "# HEADER 1 \n ## HEADER 2 \n [link](https://www.freecodecamp.org) \n `let i = 5` \n ```\n() => {}\n``` \n- list \n \n> Block quote \n**bold** \n![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)"
+    const [text, setText] = React.useState(init);
+
+    
 
     return (
         <div className="text-center px-4">

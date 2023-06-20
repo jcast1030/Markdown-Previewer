@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
 }
 
@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-.textarea{
+.textarea {
     width: 100%;
     font-size: 22px;
     padding: 20px;
@@ -15,11 +15,11 @@ body {
     outline: none;
 }
 
-.textarea:focus{
+.textarea:focus {
     box-shadow: 0px 0px 3px 3px royalblue;
 }
 
-#preview{
+#preview {
     padding: 40px;
     text-align: left;
     background-color: plum;
@@ -27,10 +27,9 @@ body {
     border: 1px solid black;
     box-shadow: 1px 1px 5px 1px gray;
     border-radius: 20px 0px;
-
 }
 
-#preview code{
+#preview code {
     background-color: white;
     border-radius: 4px;
     padding: 5px 0px;
@@ -38,7 +37,7 @@ body {
     font-weight: bold;
 }
 
-#preview pre{
+#preview pre {
     background-color: white;
     padding: 10px;
 }
