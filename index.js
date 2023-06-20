@@ -13,14 +13,14 @@ function App(){
             <h1 className="p-4">Markdown Previewer</h1>
             <textarea
                 name="text"
-                id="text"
+                id="editor"
                 rows="10"
                 onChange={(e) => setText(e.target.value)}
                 value={text}
                 className="textarea">
             </textarea>
             <h3 className="mt-3">Output</h3>
-            <Preview markdown={text} />
+            <Preview markdown={text} id="preview"/>
         </div>
     );
 }
